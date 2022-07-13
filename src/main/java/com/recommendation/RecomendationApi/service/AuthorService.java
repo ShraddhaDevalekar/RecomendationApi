@@ -7,4 +7,8 @@ public interface AuthorService {
 
 	Author addAuthor(Author author);
 
+	Author getAuthorById(int authorid);
+
+
+
 }
